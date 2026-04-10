@@ -4,6 +4,9 @@
   <artifactId>sonar-demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <properties>
+  <sonar.organization>tran-le-minh-man</sonar.organization>
+</properties>
   <dependencies>
     <!-- JUnit -->
     <dependency>
