@@ -9,6 +9,8 @@ class CalculatorTest {
 		Calculator c = new Calculator();
 		assertEquals(15, c.plus(5, 10));
 		assertEquals(15, c.minus(20, 5));
+		assertEquals(50, c.multiply(5, 10));
+		assertEquals(10, c.divide(50, 5));
 	}
 
 }
